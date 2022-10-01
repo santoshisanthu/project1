@@ -1,0 +1,104 @@
+
+        
+            /*----- nav bar ------ */
+
+
+.navbar{
+    background-color: bisque;
+    position: sticky;
+}
+
+.navbar h1{
+
+    padding-left: 10px;
+    color: black;
+}
+
+.navbar i{
+
+    font-size: 40px;
+  margin-left:100px ;
+  
+}
+.navbar li{
+    padding-left: 40px;
+    margin-right: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:monospace;
+    
+}
+.navbar a{
+    color: crimson;
+}
+
+.navbar li:hover::after
+{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:darkblue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar li:hover::after{
+    width: 100%;
+}
+
+           /*------ registraion form ------ */
+
+   .container h1{
+
+    text-align: center;
+    margin-top: 70px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+   }  
+
+   .container form{
+    box-sizing: border-box;
+   }
+   input[type=text]
+   
+   {
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid green;
+    height: 35px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.mail{
+    box-sizing: border-box;
+}
+input[type=email]
+{
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid green;
+    height: 35px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+    
+}
+
+input[type=radio]
+{
+    width: 1%;
+    padding-left: 0%;
+    border: 1px solid green;
+    
+
+}
+form label{
+
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}

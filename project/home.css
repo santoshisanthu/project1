@@ -1,0 +1,44 @@
+.navbar{
+    background-color: crimson;
+    position: sticky;
+}
+
+.navbar h1{
+
+    padding-left: 10px;
+    color: black;
+    
+}
+
+
+.navbar i{
+
+    font-size: 40px;
+  margin-left:100px ;
+  
+}
+.navbar li{
+    padding-left: 40px;
+    margin-right: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:monospace;
+    
+}
+.navbar a{
+    color: aliceblue;
+}
+
+.navbar li:hover::after
+{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:yellow;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar li:hover::after{
+    width: 100%;
+}

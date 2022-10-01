@@ -1,0 +1,113 @@
+
+
+                 /* navbar */
+
+.navbar{
+    background-color: aqua;
+    position: sticky;
+}
+
+.navbar h1{
+
+    padding-left: 10px;
+    color: black;
+}
+
+.navbar i{
+
+    font-size: 40px;
+  margin-left:100px ;
+  
+}
+.navbar li{
+    padding-left: 40px;
+    margin-right: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:monospace;
+    
+}
+.navbar a{
+    color: crimson;
+}
+
+.navbar li:hover::after
+{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:darkblue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar li:hover::after{
+    width: 100%;
+}
+
+               /* login form */
+
+   .container{
+    background-image: linear-gradient(rgb(89, 89, 192),rgb(44, 153, 196));
+    margin-top: 100px;
+    
+   }            
+
+  .container h1{
+          
+        text-align: center;
+        margin-top: 90px;
+        color: crimson;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 40px;
+    } 
+
+    .container form{
+        box-sizing: border-box;
+    }
+    input[type=email],
+    input[type=password]
+    {
+        width: 70%;
+        border-radius: 5px;
+        border: 1px solid green;
+        height: 35px;
+        margin-left: 450px;
+        
+    }
+
+.mail{
+
+    padding-top: 60px;
+    margin-left: 450px;
+    font-size: 25px;
+    font-weight: bold;
+   
+
+}
+
+.password{
+
+    padding-top: 20px;
+    margin-left: 450px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.container button{
+
+    width: 20%;
+    background-image:linear-gradient(rgb(143, 143, 229),rgb(109, 174, 200),rgb(166, 224, 224));
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.container form{
+
+    background-color: aliceblue;
+    width: fit-content;
+    
+
+}
